@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>marker_manager_uma</name>
+  <version>1.0.0</version>
+  <description>This package implements the processing related to UMA-ROS2-Android</description>
+  <maintainer email="manuelcordoba123@gmail.com">Manuel Cordoba Ramos</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>utm</exec_depend>
+  <exec_depend>gmplot</exec_depend>
+  <exec_depend>datetime</exec_depend>
+  <exec_depend>os</exec_depend>
+  <exec_depend>time</exec_depend>
+  <exec_depend>matplotlib</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
